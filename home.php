@@ -55,18 +55,6 @@ $pages = $maRequetePages->fetchAll();
 
 ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -92,10 +80,9 @@ $pages = $maRequetePages->fetchAll();
       <span id="name" ><?= $user[0]["first_name"] . ' ' . $user[0]["last_name"]?> </span>
       <div id="liste">
         <ul>
-          <li><img class="svg" src="svg/user.svg" alt=""><a href="#">My Profil</a></li>
+          <li><img class="svg" src="svg/user.svg" alt=""><a href="profile.php">My Profil</a></li>
           <li> <img class="svg" src="svg/users.svg" alt=""><a href="./groups/group_search.php">My Groups</a></li>
-          <li> <img class="svg"  src="svg/book-open.svg" alt=""> <a href="#">My Pages</a></li>
-          <li> <img class="svg"  src="svg/message-circle.svg" alt=""><a href="#">My Discussions</a></li>
+          <li> <img class="svg"  src="svg/book-open.svg" alt=""> <a href="pages.php">My Pages</a></li>
         </ul>
       </div>
     </section>

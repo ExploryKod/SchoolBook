@@ -14,14 +14,14 @@
                 <a id="home"class="nav-link active" aria-current="page" href="http://localhost:8888/schoolbook/home.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./group_search.php">Groups</a>
+                <a class="nav-link" href="http://localhost:8888/schoolbook/groups/group_search.php">Groups</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="http://localhost:8888/schoolbook/pages.php">Pages</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Discussions</a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--                <a class="nav-link" href="#">Discussions</a>-->
+<!--            </li>-->
             <li class="nav-item"> 
                 <div id="logout">
                     <a class="nav-link" href="logout.php">Logout</a>
